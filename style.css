@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.instagramIcon{
+    height: 120px;
+}
+.avatarHeading{
+    height: 50px;
+    width: 50px;
+  
+}
+.navbarHeading{
+    width: 80%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    
+}
+.searchInput::placeholder{
+    text-align: center;
+}
+.searchInput{
+    width: 300px;
+}
+.Avatars div img{
+    height: 40px;
+    width:  40px;
+
+}
+.avatarUsers{
+    height: 70px;
+    width: 70px;
+    border: 1px solid red;
+    border-radius: 50%;
+    
+    display: flex;
+    justify-content: center ;
+    align-items: center ;
+}
+.yorumInput{
+    width: 85%;
+    
+}
+.avatarHeading2{
+    height: 70px;
+    width: 70px;
+    border: 1px solid red;
+    border-radius: 50%;
+    
+  
+}
+.avatarHeading3{
+    height: 70px;
+    width: 70px;
+    border: 1px solid red;
+    border-radius: 50%;
+    
+  
+}
+.stick{
+    position: fixed;
+    right: 0;
+
+}
+.right-sticky{
+width: 60%;
+}
+.icons{
+    font-size: 1rem;
+}
+.ph--heart {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256'%3E%3Cpath fill='%23000' d='M178 32c-20.65 0-38.73 8.88-50 23.89C116.73 40.88 98.65 32 78 32a62.07 62.07 0 0 0-62 62c0 70 103.79 126.66 108.21 129a8 8 0 0 0 7.58 0C136.21 220.66 240 164 240 94a62.07 62.07 0 0 0-62-62m-50 174.8C109.74 196.16 32 147.69 32 94a46.06 46.06 0 0 1 46-46c19.45 0 35.78 10.36 42.6 27a8 8 0 0 0 14.8 0c6.82-16.67 23.15-27 42.6-27a46.06 46.06 0 0 1 46 46c0 53.61-77.76 102.15-96 112.8'/%3E%3C/svg%3E");
+    background-color: currentColor;
+    -webkit-mask-image: var(--svg);
+    mask-image: var(--svg);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    mask-size: 100% 100%;
+  }
+
